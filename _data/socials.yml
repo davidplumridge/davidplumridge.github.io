@@ -1,0 +1,9 @@
+- id: 'david-plumridge'
+  href: 'https://linkedin.com/in/'
+  title: 'Linkedin'
+  fa-icon: 'fa-linkedin-square'
+
+- id: 'davidplumridge'
+  href: 'https://github.com/'
+  title: 'GitHub'
+  fa-icon: 'fa-github-square'

@@ -1,0 +1,10 @@
+title:            David Plumridge
+email:            no-spam-please@no-spam-please.com
+description:      'Full stack developer, architect &amp; infrequent blogger.'
+baseurl:          /
+url:              https://davidplumridge.com
+github:           https://github.com/davidplumridge
+linkedin:         https://www.linkedin.com/in/david-plumridge
+
+# Permalinks
+permalink:        pretty
