@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+Allow: /blog/
+Allow: /projects/
+Disallow: /_site/
+Disallow: /_layouts/
+Disallow: /_includes/
+Disallow: /_posts/
+Disallow: /_data/
+Disallow: /.jekyll-cache/
+Disallow: /.git/
+Disallow: /Gemfile
+Disallow: /Gemfile.lock
+Disallow: /_config.yml 

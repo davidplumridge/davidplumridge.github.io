@@ -1,0 +1,23 @@
+<div class="header">
+  <div class="container header-content">
+    <div class="header-title">
+      <a href="/" class="header-title-link">
+        <img src="{{ '/public/images/nerd-icon.svg' | relative_url }}" alt="Nerd Icon" class="header-icon">
+        {{ site.title }}
+      </a>
+    </div>
+
+    <div class="header-socials">
+      <ul class="social-icons">
+        {% for social in site.data.socials %}
+          <li style="margin-bottom: 0">
+            <a class="social-icon-link" href="{{ social.href }}" target="_blank" title="Connect on {{ social.id }}">
+              <i class="fa {{ social.fa-icon }}"></i>
+              <span>{{ social.id }}</span>
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</div> 
