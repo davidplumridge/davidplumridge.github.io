@@ -1,0 +1,107 @@
+/* SIDEBAR : ABOUT */
+
+.sidebar-about h1 {
+  font-size: 1.5em; /* Adjust the font size as needed */
+  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.sidebar-about p.lead {
+  font-size: 0.9em; /* Adjust the font size as needed */
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* SIDEBAR: SOCIALS */
+
+.sidebar-socials {
+  margin-bottom: 1em;
+}
+
+.sidebar-socials h2 {
+  font-size: 1em; /* Adjust the font size as needed */
+  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #fff;
+}
+
+.social-icons {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 10px;
+}
+
+.social-icons li {
+  display: inline-block;
+}
+
+.social-icon {
+  font-size: 1.5em;
+  color: #fff;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .social-icons {
+    justify-content: center;
+  }
+}
+
+/* CONTENT */
+
+.list-item {
+  transition: transform 0.3s ease;
+  margin-bottom: 0.2em;
+}
+
+.content a {
+  color: #007ea7;
+}
+
+.content a:hover {
+  text-decoration: none;
+  text-decoration: underline;
+}
+
+@media (min-width: 48em) {
+  .content {
+    max-width: 64rem;
+    margin-left: 20rem;
+    margin-right: 2rem;
+  }
+}
+
+/* PROJECT STATUS */
+
+.status {
+  display: inline-block;
+  padding: 2px 8px 2px 8px;
+  border-radius: 5px;
+  font-size: 0.7em;
+  margin-left: 6px;
+  margin-right: 6px;
+  width: 7em;
+  text-align: center;
+}
+
+.status.active {
+  background-color: #407899; 
+  color: #fff;
+}
+
+.status.sold {
+  background-color: #28a745; 
+  color: #fff;
+}
+
+.status.inactive {
+  background-color: #999999;
+  color: #fff;
+}

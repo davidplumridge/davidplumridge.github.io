@@ -1,0 +1,11 @@
+title:            David Plumridge
+email:            no-spam-please@no-spam-please.com
+description:      'Full Stack Dev • Architect • Founder'
+baseurl:          /
+url:              https://davidplumridge.com
+
+# Permalinks
+permalink:        pretty
+
+plugins:
+  - jekyll-redirect-from

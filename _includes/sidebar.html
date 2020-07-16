@@ -1,0 +1,28 @@
+<div class="sidebar">
+
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <h1>
+        <a href="/">
+          {{ site.title }}
+        </a>
+      </h1>
+      <p class="lead">{{ site.description }}</p>
+    </div>
+
+    <div class="sidebar-socials">
+      <h2>My socials:</h2>
+      <ul class="social-icons">
+        {% for social in site.data.socials %}
+          <li>
+            <a class="social-icon" href="{{ social.href }}" target="_blank">
+              <i class="fa {{ social.fa-icon }}" style="margin-right: 5px;"></i>
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+
+    <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
+  </div>
+</div>
