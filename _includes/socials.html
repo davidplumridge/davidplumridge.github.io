@@ -1,0 +1,4 @@
+
+{% for social in site.data.socials %}
+<a class="page-link" href="{{ social.href }}{{ social.id }}" title="{{ social.title }}" ><i class="fa fa-2x {{ social.fa-icon }}" style="color:#424242; padding-top: 10px"></i></a>
+{% endfor %}
