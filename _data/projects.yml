@@ -1,0 +1,27 @@
+- id: 'Mind My Bag'
+  status: '💰 SOLD'
+  link: 'https://mindmybag.com'
+  description: A marketplace for booking luggage storage at nearby hotels & shops
+
+- id: 'Shopify HMAC Validator'
+  status: '🚀 ACTIVE'
+  link: 'https://www.npmjs.com/package/shopify-hmac-validator'
+  description: A TypeScript NPM package for validating Shopify HMAC codes
+
+- id: 'Visual subnet designer'
+  status: '🚀 ACTIVE'
+  link: 'https://subnetexpert.com'
+  description: for planning and visualizing subnets
+
+- id: 'Cron expression generator'
+  status: '🚀 ACTIVE'
+  link: 'https://cronexpert.com'
+  description: for creating and explaining cron expressions
+
+- id: 'Easy Deals Online'
+  status: '💰 SOLD'
+  description: An eCommerce brand selling 1000's of unique products
+
+- id: 'Total Lister'
+  status: '☠️ INACTIVE'
+  description: A SaaS for managing multi-channel eCommerce
