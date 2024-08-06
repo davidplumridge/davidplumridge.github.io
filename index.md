@@ -12,7 +12,7 @@ Here are some of my recent [projects](/projects)
 
 ### Blog
 
-Here are my 5 most recent blogs:
+Here are some recent blogs:
 
 <div class="home">
     <ul>
