@@ -58,14 +58,23 @@
 
 .list-item {
   transition: transform 0.3s ease;
-  margin-bottom: 0.5em; /* Adjust the spacing as needed */
+  margin-bottom: 0.2em;
 }
 
 .content a {
-    color: #007EA7;
-  }
+  color: #007ea7;
+}
 
-  .content a:hover {
-    text-decoration: none;
-    text-decoration: underline;
+.content a:hover {
+  text-decoration: none;
+  text-decoration: underline;
+}
+
+@media (min-width: 48em) {
+    .content {
+      max-width: 64rem;
+      margin-left: 20rem;
+      margin-right: 2rem;
+    }
   }
+  

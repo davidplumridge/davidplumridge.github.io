@@ -11,7 +11,7 @@ Hi, I'm a Full Stack Dev, Architect & Founder 🚀👨‍💻
 Some of the things I've been working on:
 
 <ul>
-  {% for project in site.data.projects %}
+  {% for project in site.data.projects | limit: 50 -%}
   <li class="list-item">
     {% if project.link %}
       <strong><a href="{{ project.link }}" target="_blank">{{ project.id }}</a></strong>
@@ -25,11 +25,10 @@ Some of the things I've been working on:
 
 ### ✍️ Blog
 
-Heres some blogs Ive written (without chat GPT):
+Here's some blogs I've written (without chat GPT):
 
 <ul>
-  {%- assign recent_posts = site.posts | limit: 5 -%}
-  {%- for post in recent_posts -%}
+  {%- for post in site.posts | limit: 50 -%}
   <li class="list-item">
     {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
     <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>: {{ post.excerpt }}
