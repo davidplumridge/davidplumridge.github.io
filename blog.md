@@ -1,23 +1,14 @@
 ---
 layout: page
-title: About Me
-order: 1
+title: Blog
+order: 3
 ---
 
-Hi, I'm a Full Stack Dev, Architect & Founder.
+Here is a list of all my blog posts:
 
-### Projects
-
-Here are some of my recent [projects](/projects)
-
-### Blog
-
-Here are my 5 most recent blogs:
-
-<div class="home">
+<div class="archive">
     <ul>
-      {%- assign recent_posts = site.posts | limit: 5 -%}
-      {%- for post in recent_posts -%}
+      {%- for post in site.posts -%}
       <li>
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
         <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a> - <span>{{ post.date | date: date_format }}</span>
@@ -28,5 +19,3 @@ Here are my 5 most recent blogs:
       {%- endfor -%}
     </ul>
 </div>
-
-To see all my blogs, click [here](/blog)

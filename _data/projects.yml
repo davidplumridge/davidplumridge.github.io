@@ -1,0 +1,23 @@
+- id: 'Shopify HMAC Validator'
+  icon: fa fa-lock
+  status: ACTIVE
+  link-text: Open the NPM package
+  link: 'https://www.npmjs.com/package/shopify-hmac-validator'
+  description: A lightweight (TypeScript) npm package for validating Shopify HMAC codes for user and webhook requests.
+
+- id: 'Mind My Bag'
+  icon: fa fa-suitcase
+  status: SOLD
+  link-text: Open mindmybag.com
+  link: 'https://mindmybag.com'
+  description: A luggage storage solution for AirBnB and short-stay guests. Expanded to 20+ cities in 6 months, survived COVID, and sold to a competitor.
+
+- id: 'Total Lister'
+  icon: fa fa-code
+  status: INACTIVE
+  description: A SaaS platform that evolved into a comprehensive solution for managing multi-channel eCommerce across eBay and Magento.
+
+- id: 'Easy Deals Online'
+  icon: fa fa-shopping-cart
+  status: SOLD
+  description: An e-commerce business using Total Lister. Partnered with suppliers across Australia, grew to six-figure monthly revenue, and sold the business.
