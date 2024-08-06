@@ -1,11 +1,12 @@
 ---
 layout: post
-title:  "How I built this site"
-date:   2020-07-09 00:00:00 +1000
+title: "How I built this site"
+date: 2020-07-09 00:00:00 +1000
+excerpt: "A short guide on how I made this site"
 comments: true
 ---
 
-I decided to create a minimalist website to showcase my projects and interests. For my first blog, I'll explain how I built the site, hoping to help others with similar goals.
+A short guide on how I made this minimalist website.
 
 ### My requirements
 

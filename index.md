@@ -4,29 +4,50 @@ title: About Me
 order: 1
 ---
 
-Hi, I'm a Full Stack Dev, Architect & Founder.
+Hi, I'm a Full Stack Dev, Architect & Founder 🚀👨‍💻
 
-### Projects
+### 🚧 Projects
 
-Here are some of my recent [projects](/projects)
+Some of the things I've been working on:
 
-### Blog
+<ul>
+  {% for project in site.data.projects %}
+  <li class="list-item">
+    {% if project.link %}
+      <strong><a href="{{ project.link }}" target="_blank">{{ project.id }}</a></strong>
+    {% else %}
+      <strong>{{ project.id }}</strong> 
+    {% endif %}
+    ({{ project.status }}) - {{ project.description }}
+  </li>
+  {%- endfor -%}
+</ul>
 
-Here are some recent blogs:
+### ✍️ Blog
 
-<div class="home">
-    <ul>
-      {%- assign recent_posts = site.posts | limit: 5 -%}
-      {%- for post in recent_posts -%}
-      <li>
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a> - <span>{{ post.date | date: date_format }}</span>
-        {%- if site.show_excerpts -%}
-          <p>{{ post.excerpt }}</p>
-        {%- endif -%}
-      </li>
-      {%- endfor -%}
-    </ul>
-</div>
+Heres some blogs Ive written (without chat GPT):
 
-To see all my blogs, click [here](/blog)
+<ul>
+  {%- assign recent_posts = site.posts | limit: 5 -%}
+  {%- for post in recent_posts -%}
+  <li class="list-item">
+    {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+    <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>: {{ post.excerpt }}
+  </li>
+  {%- endfor -%}
+</ul>
+
+### 🤝 Connect with me
+
+Want to say hello? Reach me at:
+
+<ul>
+  {% for social in site.data.socials %}
+    <li class="list-item">
+      <a href="{{ social.href }}" target="_blank">
+        <i class="fa {{ social.fa-icon }}" style="margin-right: 5px;"></i>
+        {{ social.id }}
+      </a>
+    </li>
+  {% endfor %}
+</ul>

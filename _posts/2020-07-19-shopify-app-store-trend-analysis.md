@@ -1,7 +1,8 @@
 ---
 layout: post
-title:  "Shopify app store trends"
-date:   2020-07-19 00:00:00 +1000
+title: "Shopify app store trends"
+date: 2020-07-19 00:00:00 +1000
+excerpt: "Using customer feedback to find a new startup idea"
 ---
 
 During Melbourne's second coronavirus lockdown, I found myself with some spare time.
