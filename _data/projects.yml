@@ -6,12 +6,12 @@
 - id: 'Shopify HMAC Validator'
   status: 'active'
   link: 'https://www.npmjs.com/package/shopify-hmac-validator'
-  description: A TypeScript npm package for validating Shopify HMAC codes for user & webhook requests
+  description: A TypeScript npm package for validating Shopify HMAC codes
 
 - id: 'Easy Deals Online'
   status: 'sold'
-  description: eCommerce start-up that achieved six-figure monthly revenue
+  description: An eCommerce start-up that achieved six-figure monthly revenue
 
 - id: 'Total Lister'
   status: 'inactive'
-  description: A SaaS platform that evolved into a comprehensive solution for managing multi-channel eCommerce
+  description: A SaaS product for managing multi-channel eCommerce
