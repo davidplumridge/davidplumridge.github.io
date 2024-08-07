@@ -18,7 +18,8 @@ Some of the things I've been working on:
     {% else %}
       <strong>{{ project.id }}</strong> 
     {% endif %}
-    ({{ project.status }}) - {{ project.description }}
+    <span class="status {{ project.status | downcase }}">{{ project.status }}</span>
+    {{ project.description }}
   </li>
   {%- endfor -%}
 </ul>

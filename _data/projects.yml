@@ -1,23 +1,17 @@
 - id: 'Mind My Bag'
-  icon: fa fa-suitcase
-  status: 💰 sold
-  link-text: Open mindmybag.com
+  status: 'sold'
   link: 'https://mindmybag.com'
   description: A luggage storage solution that helped tourist book a storage space at nearby hotels & shops
 
 - id: 'Shopify HMAC Validator'
-  icon: fa fa-lock
-  status: active
-  link-text: Open the NPM package
+  status: 'active'
   link: 'https://www.npmjs.com/package/shopify-hmac-validator'
   description: A TypeScript npm package for validating Shopify HMAC codes for user & webhook requests
 
 - id: 'Easy Deals Online'
-  icon: fa fa-shopping-cart
-  status: 💰 sold
+  status: 'sold'
   description: eCommerce start-up that achieved six-figure monthly revenue
 
 - id: 'Total Lister'
-  icon: fa fa-code
-  status: inactive
+  status: 'inactive'
   description: A SaaS platform that evolved into a comprehensive solution for managing multi-channel eCommerce
