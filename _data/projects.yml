@@ -1,7 +1,7 @@
 - id: 'Mind My Bag'
   status: 'sold'
   link: 'https://mindmybag.com'
-  description: A luggage storage solution that helped tourist book a storage space at nearby hotels & shops
+  description: A luggage storage solution that enabled tourists to book storage spaces at nearby hotels & shops
 
 - id: 'Shopify HMAC Validator'
   status: 'active'
