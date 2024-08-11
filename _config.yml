@@ -6,3 +6,6 @@ url:              https://davidplumridge.com
 
 # Permalinks
 permalink:        pretty
+
+plugins:
+  - jekyll-redirect-from
