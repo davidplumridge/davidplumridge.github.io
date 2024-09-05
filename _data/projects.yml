@@ -6,7 +6,7 @@
 - id: 'Shopify HMAC Validator'
   status: '🚀 ACTIVE'
   link: 'https://www.npmjs.com/package/shopify-hmac-validator'
-  description: An npm package for validating Shopify HMAC codes
+  description: A TypeScript NPM package for validating Shopify HMAC codes
 
 - id: 'Easy Deals Online'
   status: '💰 SOLD'

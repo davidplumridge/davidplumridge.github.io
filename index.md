@@ -8,9 +8,7 @@ Hi, I'm a Full Stack Dev, Architect & Founder 🚀👨‍💻
 
 ### 🚧 Projects
 
-Some of the things I've been working on:
-
-<ul>
+<ul style="list-style-type: none;">
   {% for project in site.data.projects | limit: 50 -%}
   <li class="list-item">
     <span class="status {{ project.status | downcase }}">{{ project.status }}</span>
@@ -24,9 +22,7 @@ Some of the things I've been working on:
   {%- endfor -%}
 </ul>
 
-### ✍️ Blog
-
-Here's some blogs I've written:
+### ✍️ Blog posts
 
 <ul>
   {%- for post in site.posts | limit: 50 -%}
@@ -38,8 +34,6 @@ Here's some blogs I've written:
 </ul>
 
 ### 🤝 Connect with me
-
-Want to say hello? Reach me at:
 
 <ul>
   {% for social in site.data.socials %}

@@ -2,7 +2,7 @@
 layout: post
 title: "How I built this site"
 date: 2024-06-01 00:00:00 +1000
-excerpt: "A short guide on how I made this site"
+excerpt: "Using github pages, jekyll & minimalism"
 comments: true
 ---
 
