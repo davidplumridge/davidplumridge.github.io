@@ -18,6 +18,11 @@
   link: 'https://cronexpert.com'
   description: for creating and explaining cron expressions
 
+- id: 'Action buddy'
+  status: '☠️ INACTIVE'
+  link: 'https://actionbuddy.io'
+  description: A productivity tool focused on motavtion using loss aversion
+
 - id: 'Easy Deals Online'
   status: '💰 SOLD'
   description: An eCommerce brand selling 1000's of unique products
