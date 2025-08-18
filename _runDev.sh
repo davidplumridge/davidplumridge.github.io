@@ -1,1 +1,1 @@
-bundle install && bundle exec jekyll serve
+eval "$(rbenv init -)" && bundle install && bundle exec jekyll serve

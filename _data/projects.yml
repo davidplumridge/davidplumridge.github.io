@@ -1,32 +1,37 @@
 - id: 'Mind My Bag'
   status: '💰 SOLD'
   link: 'https://mindmybag.com'
-  description: A marketplace for booking luggage storage at nearby hotels & shops
+  description: 'Marketplace to book luggage storage at nearby hotels and shops.'
 
-- id: 'Shopify HMAC Validator'
+- id: 'Airport expert'
+  status: '🚀 ACTIVE'
+  link: 'https://airportexpert.com'
+  description: 'AI-powered directory of global airport services and amenities.'
+
+- id: 'Shopify HMAC validator'
   status: '🚀 ACTIVE'
   link: 'https://www.npmjs.com/package/shopify-hmac-validator'
-  description: A TypeScript NPM package for validating Shopify HMAC codes
+  description: 'TypeScript library for Shopify webhook HMAC validation.'
 
 - id: 'Visual subnet designer'
   status: '🚀 ACTIVE'
   link: 'https://subnetexpert.com'
-  description: for planning and visualizing subnets
+  description: 'Network designer with IaC export for cloud infrastructure.'
 
 - id: 'Cron expression generator'
   status: '🚀 ACTIVE'
   link: 'https://cronexpert.com'
-  description: for creating and explaining cron expressions
+  description: 'Visual builder for UNIX and Quartz cron expressions.'
 
-- id: 'Action buddy'
+- id: 'Action Buddy'
   status: '☠️ INACTIVE'
   link: 'https://actionbuddy.io'
-  description: A productivity tool focused on motavtion using loss aversion
+  description: 'Started as an accountability service using loss aversion, now a blog.'
 
 - id: 'Easy Deals Online'
   status: '💰 SOLD'
-  description: An eCommerce brand selling 1000's of unique products
+  description: 'Multi-channel eCommerce brand selling thousands of unique products.'
 
 - id: 'Total Lister'
   status: '☠️ INACTIVE'
-  description: A SaaS for managing multi-channel eCommerce
+  description: 'Inventory sync platform for multi-channel eCommerce sellers.'
